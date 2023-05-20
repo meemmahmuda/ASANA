@@ -1,0 +1,54 @@
+
+@media (max-width: 991px) {
+
+
+	.menu-icon{
+		display: block;
+		text-align: right;
+	}
+
+	.menu-icon i{
+		color: #fff;
+	}
+
+	.pages{
+		display: none;
+	}
+
+	.mobile-menu{
+		border-top: 1px solid #d83953;
+		margin-top: 20px;
+	}
+
+	.mobile-menu ul li a{
+	text-transform: capitalize;
+	color: #fff;
+	padding: 7px 0;
+	position: relative;
+	text-align: right;
+	display: block;
+    }
+
+    .mobile-menu ul li a::after{
+	content: '';
+	display: block;
+	background: #d83953;
+	width: 0;
+	height: 2px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	transition: .5s;
+   }
+
+   .mobile-menu ul li a:hover::after{
+   	width: 5%;
+   }
+
+
+
+   .body-txt{
+   	width: 70%;
+   }
+
+}
